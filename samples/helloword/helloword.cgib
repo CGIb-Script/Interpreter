@@ -1,0 +1,9 @@
+<cgib>
+ On Error Resume Next
+ d = request("d")
+ if lcase(d) = "yes" then  
+  print "Hello Word (" &now& ")!"
+  else
+  print "Hello Word!"
+ end if 
+</cgib>
